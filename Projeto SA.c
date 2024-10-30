@@ -149,11 +149,11 @@ int main()
 
     switch(menu){
         case 1:
-        printf("Qual lanche você deseja? \n\n");
-        printf(" 1 - Hamburger (R$10,99)\n 2 - Batata-frita (R$8,99)\n 3 - Combo hambúrger e batata + bebida de sua escolha (R$19,99)\n");
+        printf("Qual lanche vocÃª deseja? \n\n");
+        printf(" 1 - Hamburger (R$10,99)\n 2 - Batata-frita (R$8,99)\n 3 - Combo hambÃºrger e batata + bebida de sua escolha (R$19,99)\n");
         printf("\nSua escolha: ");
         scanf("%d", &lanche);
-        printf("\n\nQuantos lanches você quer?\n");
+        printf("\n\nQuantos lanches vocÃª quer?\n");
         printf("\nSua escolha: ");
         scanf("%d", &qtd);
         system("cls");
@@ -167,7 +167,7 @@ int main()
             printf("\nData do pedido: %s\n\n", data);
             printf("------------------------------------\n\n");
             printf("Item\t\tQntd\t\tSubtotal\n\n");
-            printf("Hambúrguer\t%d\t\t%.2f", qtd, subtotal);
+            printf("HambÃºrguer\t%d\t\t%.2f", qtd, subtotal);
             printf("\n\n------------------------------------\n\n");
             printf("Obrigado por pedir na Burger.dev!\n\n");
 
@@ -209,24 +209,24 @@ int main()
 
         if(strcmp(mostrarPedidos, nome) == 0){
 
-            printf("\nO cliente %s pediu um número %d no dia %s", nome, lanche, data);
+            printf("\nO cliente %s pediu um nÃºmero %d no dia %s", nome, lanche, data);
             Sleep(5000);
             system("cls");
 
         }else{
 
-            printf("\nEste cliente não existe!");
+            printf("\nEste cliente nÃ£o existe!");
             Sleep(5000);
             system("cls");
         }
         break;
 
         case 3:
-        printf("\nDigite seu endereço para a entrega: ");
+        printf("\nDigite seu endereÃ§o para a entrega: ");
         scanf("%s", &endereco);
-        printf("\n\nDigite o número do lanche que você deseja: ");
+        printf("\n\nDigite o nÃºmero do lanche que vocÃª deseja: ");
         scanf("%d", &lanche);
-        printf("\n\nDigite a quantidade do lanche que você deseja: ");
+        printf("\n\nDigite a quantidade do lanche que vocÃª deseja: ");
         scanf("%d", &qtd);
         system("cls");
 
@@ -236,15 +236,15 @@ int main()
             subtotal = qtd*10.99;
             subtotalFrete = subtotal+5.99;
             printf("\n\n------------ BURGER.DEV ------------\n\n");
-            printf("Endereço do cliente: %s", endereco);
+            printf("EndereÃ§o do cliente: %s", endereco);
             printf("\nData do pedido: %s\n\n", data);
             printf("----------------------------------------------------------\n\n");
             printf("Item\t\tQntd\t\tSubtotal\t\tFrete\n\n");
-            printf("Hambúrguer\t%d\t\t%.2f\t\t\t5.99", qtd, subtotal);
+            printf("HambÃºrguer\t%d\t\t%.2f\t\t\t5.99", qtd, subtotal);
             printf("\n\n----------------------------------------------------------\n\n");
             printf("Total:\t\t\t\t\t\t\t%.2f", subtotalFrete);
             printf("\n\n------------------------------------\n");
-            printf("\nO seu hambúrger está à caminho!\n\n");
+            printf("\nO seu hambÃºrger estÃ¡ Ã  caminho!\n\n");
             Sleep(5000);
             system("cls");
         }else if(lanche == 2){
@@ -253,7 +253,7 @@ int main()
             subtotal = qtd*8.99;
             subtotalFrete = subtotal+5.99;
             printf("\n\n------------ BURGER.DEV ------------\n\n");
-            printf("Endereço do cliente: %s", endereco);
+            printf("EndereÃ§o do cliente: %s", endereco);
             printf("\nData do pedido: %s\n\n", data);
             printf("----------------------------------------------------------\n\n");
             printf("Item\t\tQntd\t\tSubtotal\t\tFrete\n\n");
@@ -261,7 +261,7 @@ int main()
             printf("\n\n----------------------------------------------------------\n\n");
             printf("Total:\t\t\t\t\t\t\t%.2f", subtotalFrete);
             printf("\n\n------------------------------------\n");
-            printf("\nAs suas fritas estão chegando!\n\n");
+            printf("\nAs suas fritas estÃ£o chegando!\n\n");
             Sleep(5000);
             system("cls");
         }else if(lanche == 3){
@@ -270,7 +270,7 @@ int main()
             subtotal = qtd*19.99;
             subtotalFrete = subtotal+5.99;
             printf("\n\n------------ BURGER.DEV ------------\n\n");
-            printf("Endereço do cliente: %s", endereco);
+            printf("EndereÃ§o do cliente: %s", endereco);
             printf("\nData do pedido: %s\n\n", data);
             printf("----------------------------------------------------------\n\n");
             printf("Item\t\tQntd\t\tSubtotal\t\tFrete\n\n");
@@ -279,7 +279,7 @@ int main()
             printf("\n\n----------------------------------------------------------\n\n");
             printf("Total:\t\t\t\t\t\t\t%.2f", subtotalFrete);
             printf("\n\n------------------------------------\n");
-            printf("\nSeu super combo está saindo!\n\n");
+            printf("\nSeu super combo estÃ¡ saindo!\n\n");
             Sleep(5000);
             system("cls");
         }
@@ -293,6 +293,10 @@ int main()
             printf("Email para contato: burgerdev@support.com\n");
             Sleep(1500);
             printf("\n\nFeito com <3\n");
+            break;
+
+        case 666:
+            system("curl parrot.live");
             break;
     }
     }
