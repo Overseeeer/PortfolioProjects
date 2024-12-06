@@ -1,16 +1,12 @@
 --- PORTUGUÊS ---
 
-Olá!!
+Ei!
 
-Aqui é o repositório feito apenas para o meu portfólio de projetos em códigos!
-Sinta-se à vontade para comentar e me ajudar a resolver quaisqueres problemas existentes em meus códigos!
-Sugestões são muito bem-vindas também.
+Aqui são meus projetos em JAVA.
 
 
 --- ENGLISH ---
 
-Hello!!
+Hey!
 
-This is the repository made just for my coding projects portfolio!
-Feel free to comment and help me solve any bugs and errors that may exist on my codes!
-Suggestions are also welcome.
+Here are my JAVA projects.
