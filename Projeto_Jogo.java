@@ -198,7 +198,5 @@ public class questao2 {
 			
 		}
 		scan.close();
-		
-		// Professor, espero que entenda, eu fiz o máximo de possibilidades possíveis
 	}
 }
