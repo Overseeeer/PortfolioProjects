@@ -1,12 +1,11 @@
 --- PORTUGUÊS ---
 
-Ei!
+Olá!
 
-Aqui são meus projetos em JAVA.
-
+Aqui estão meus projetos feitos ao longo da minha carreira.
 
 --- ENGLISH ---
 
-Hey!
+Hello!
 
-Here are my JAVA projects.
+Here are my projects made throughout my carrier
