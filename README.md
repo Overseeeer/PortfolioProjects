@@ -8,4 +8,4 @@ Aqui estão meus projetos feitos ao longo da minha carreira.
 
 Hello!
 
-Here are my projects made throughout my carrier
+Here are my projects made throughout my carrier.
