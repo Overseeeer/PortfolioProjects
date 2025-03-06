@@ -2,10 +2,10 @@
 
 Olá!
 
-Aqui estão meus projetos feitos ao longo da minha carreira.
+Esses são os projetos em Python.
 
 --- ENGLISH ---
 
 Hello!
 
-Here are my projects made throughout my carrier.
+Those are my Python projects.
